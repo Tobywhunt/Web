@@ -1,0 +1,28 @@
+body {
+    background-color: pink;
+    font-size: 18px;
+}
+
+img {
+    width: 300px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+}
+
+.big {
+    font-size: 2em;
+    text-align: center;
+    width: 400px;
+    margin: auto;
+}
