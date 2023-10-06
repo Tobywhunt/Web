@@ -16,20 +16,25 @@ nav a:hover {
     color: yellow;
 }
 
-.icon {
-    width: 80px;
-}
-
-nav a {
-    text-align: center;
-    color: bisque;
-    text-decoration: bisque;
+.logos {
+    width: 80px; 
+    float: left;
 }
 
 footer p {
     font-size: 1.2em;
+    background-color: gray;
 }
 
 footer p a:hover {
     text-decoration: underline;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: gray;
+    font-family: "montserrat" , sans-serif;
 }
