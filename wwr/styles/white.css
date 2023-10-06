@@ -12,9 +12,15 @@ header {
 }
 
 nav a:hover {
-    background-color: black;
-    color: yellow;
+    background-color: rgb(69, 69, 69);
+    color: rgb(35, 35, 34);
 }
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
 
 .logos {
     width: 80px; 
@@ -37,4 +43,13 @@ nav{
     min-height: 8vh;
     background-color: gray;
     font-family: "montserrat" , sans-serif;
+}
+
+.container {
+    max-width: 1600px;
+}
+
+.book {
+    text-decoration: none;
+    color: rgb(127, 116, 116);
 }
