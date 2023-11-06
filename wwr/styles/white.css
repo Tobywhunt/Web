@@ -1,5 +1,6 @@
 #background {
-    height: 725;
+    height: 725px;
+    background-color: rgb(90, 114, 82);
 }
 
 body {
@@ -27,7 +28,7 @@ nav a {
     float: left;
 }
 
-footer p {
+footer {
     font-size: 1.2em;
     background-color: gray;
 }
@@ -47,9 +48,18 @@ nav{
 
 .container {
     max-width: 1600px;
+    margin: 0 auto;
 }
 
 .book {
     text-decoration: none;
     color: rgb(120, 112, 112);
+}
+
+.icon {
+    width: 80px;
+}
+
+a {
+    text-decoration: none;
 }
