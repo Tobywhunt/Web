@@ -1,3 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Inclusive+Sans&family=Lato:wght@300;400&family=Lobster&family=Rubik:wght@300;400;600;700&display=swap');
+
+
 id {
     max-width: 1600px;
+}
+
+#background {
+    height: 725px;
+    background-color: rgb(64, 100, 104);
+}
+
+body {
+    background-color: rgb(169, 184, 225);
+    text-align: center;
+    font-family: 'Poppins', 'Lato', sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(64, 100, 104);
+    padding: 0 10px;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+nav a:hover {
+    background-color: rgb(79, 87, 88);
+    color: rgb(35, 35, 34);
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 35px;
+}
+
+
+.logos {
+    width: 80px; 
+    float: left;
+    padding-top: 5px;
+}
+
+.icon {
+    width: 80px;
+    padding-top: 10px;
+}
+
+
+footer {
+    font-size: 1.2em;
+    background-color: rgb(64, 100, 104);
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer p a:hover, footer p a:focus, footer p a:active, footer p a {
+    text-decoration: none;
+    color: inherit;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: rgb(64, 100, 104);
+    font-family: "montserrat" , sans-serif;
+}
+
+.card-img  {
+    border: 10px solid #000000;
+    box-shadow: 5px 5px 10px #6f7364;
+    max-height: 200px;
+}
+
+h1 {
+    font-size: 100px;
+    font-family: 'Caveat';
+}
+
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    column-gap: 20px;
+}
+
+@media screen and (max-width: 900px) {
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    footer {
+        margin-top: 25px;
+    }
+    .info {
+        display: block;
+    }
 }
