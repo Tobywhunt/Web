@@ -1,6 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Inclusive+Sans&family=Lato:wght@300;400&family=Lobster&family=Rubik:wght@300;400;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300&display=swap');
 
 #background {
     height: 725px;
@@ -16,6 +15,10 @@ body {
     font-size: 22px;
     margin: 0;
     padding: 0;
+}
+
+.font {
+    font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
 a {
@@ -157,11 +160,15 @@ a {
     align-self: center;
 }
 
+h1 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 60px;
+}
+
+
+
 @media screen and (max-width: 900px) {
-    #hero, .home-grid {
-        display: block;
-        height: auto;
-    }
+
     nav, footer {
         flex-direction: column;
     }
@@ -169,33 +176,15 @@ a {
         display: block;
         padding: 15px;
     }
-    #hero {
-        margin-top: 0;
-    }
-    #hero-msg {
-        margin-top: 0;
-    }
-    #hero-msg h4 {
-        display: none;
-    }
-    #hero-msg h1 {
-        color: #6f7364;
-    }
+
     .home-title {
         font-size: 25px;
-    }
-    .rivers-card, .camping-card, .rapids-card { 
-        margin: 50px auto;
-        width: 60%;
+  
     }
     #background {
         display: none;
     }
-    .mountains, .msg {
-        width: 80%;
-        display: block;
-        margin: 0 auto;
-    }
+
     footer {
         margin-top: 25px;
     }

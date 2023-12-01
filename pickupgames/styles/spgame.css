@@ -1,6 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Inclusive+Sans&family=Lato:wght@300;400&family=Lobster&family=Rubik:wght@300;400;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300&display=swap');
 
 #background {
     height: 725px;
@@ -140,6 +139,10 @@ a {
     text-decoration: none;
 }
 
+h1 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 60px;
+}
 
 
 #logo_link {
