@@ -5,10 +5,10 @@ Fonts are separated by a | */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #75B9BE   ;
-  --secondary-color: #A8CCC9 ;
-  --accent1-color: #B3D6C6;
-  --accent2-color: white;
+  --primary-color: #dcdc3d   ;
+  --secondary-color: #e7c24f ;
+  --accent1-color: #ffffff;
+  --accent2-color: #ece781;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "IM Fell French Canon SC";
@@ -176,4 +176,8 @@ nav a:hover {
 
 .pic {
     width: 200px;
+}
+
+img {
+  max-width: 300px;
 }
